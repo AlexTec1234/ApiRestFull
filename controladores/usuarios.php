@@ -363,7 +363,7 @@ class usuarios
     }
 
     //obtiene al usuario por medio del correo
-    //con un get /correo/Perez@gmail.com
+    //ejemplo con un get /correo/Perez@gmail.com
     private static function obtenerUsuarioPorCorreo($correo)
     {
         try {

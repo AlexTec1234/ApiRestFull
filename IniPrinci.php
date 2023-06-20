@@ -56,7 +56,7 @@ if (!in_array($recurso, $recursos_existentes)) {
 
 $metodo = strtolower($_SERVER['REQUEST_METHOD']);
 
-// Filtrar m�todo
+// Filtracion del metodp
 switch ($metodo) {
     case 'get':
     case 'post':
